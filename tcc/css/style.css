@@ -1,0 +1,390 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*--------------------------------usado em titulos de caixas de texto-----------------------------*/
+/*--------------------------------CORPO DO SISTEMA---------------------------------*/
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana, arial;
+    font-size: 11px;
+    font-style: normal;
+    background-color:#d7e7e8; /*#666;*/
+}
+.imagem{
+    font-family:"Arial Black", Gadget, sans-serif;
+    font-size:11px;
+    border: 1px solid #069;
+    padding: 2px;
+    margin-left: 1px;
+    margin-right: 1px;
+    color:#000;
+}
+
+.foto{
+    border:0px;
+    cursor:pointer;
+}
+
+/*----------------------caixa de montagem de fundo do layout--------------------------*/
+#wrap {
+    margin: 0 auto;
+    padding: 0px;
+    width: auto;
+    font-family: verdana, arial;
+    font-style: normal;
+    border: 1px solid #f0f0f0;
+    background-color: #DAE4E9;
+}
+#paginador{
+    border: 1px solid #CCC;
+    width:auto;
+    margin:2px;
+
+    text-align:center;
+    background-color:white;
+}
+.paginadord{
+    font-family:"Arial Black", Gadget, sans-serif;
+    font-size:13px;
+    color:#069;
+
+}
+.paginador{
+    font-family:"Arial Black", Gadget, sans-serif;
+    font-size:11px;
+    color:#000;
+}
+.file{
+    height:25px;
+    width:auto;
+    border:0px solid #CCF;
+    vertical-align:middle;
+    text-align:justify;
+}
+select{
+    width:auto;
+}
+/*-----------------------Cabecalho da pagina--------------------------------*/
+#header {
+    margin: 0 auto;
+    padding: 0px;
+    padding-top: 20px;
+    width: auto;
+    height: 100px;
+    font-family: verdana, arial;
+    font-style: normal;
+    background-color:#666; /*#f0f0f0;*/
+    border: 0px solid #f0f0f0;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/*-----------------------Define uma faixa de 20px no cabecalho da pagina------------------------------*/
+#postheader {
+    margin-top: 0px;
+    padding: 0px;
+    width: auto;
+    height: 20px;
+    background-color: #808080;
+}
+/*-----------------------------define a divisoria dos menus do sistema-------------------------------*/
+#menux{
+    margin-top:27px;
+    padding:0px;
+    margin-left:15px;
+    width: auto;
+    height:30px;
+}
+/*-------------------------define as propriedades do icone de logout do sistema----------------------*/
+#iconexit {
+    border: 0px solid #41b1be;
+    float: right;
+    margin-top: 0px;
+    margin-right: 30px;
+}
+/*propriedades do link de logout*/
+#linkexit {
+    float:right;
+    margin-right: 30px;
+    font: 10px "Arial Black";
+}
+/*---------------------------------------------------------------------------------------------------*/
+
+#menulink{
+    color: #000000;
+    font: 12px "Arial Black";
+    margin-top: 2px;
+    text-decoration:none;
+}
+a{
+    color: #ff8040;
+    margin-top: 2px;
+    text-decoration:none;
+}
+/*-----------------------define as propriedades dos links de mapa do sistema-----------------------*/
+#linkmap{
+
+    font:12px "Arial Black";
+    margin-top: 3px;
+    padding-left:18px;
+
+}
+
+#content {
+    padding: 0px;
+    margin: 0 auto;
+    width: auto;
+    min-height:400px;
+    font-family: verdana, arial;
+    font-style: normal;
+    background-image: url(../images/medicina5.png);
+    background-position:center;
+    background-repeat:no-repeat;
+
+}
+#label1{
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:12px;
+    display:block;
+    margin-left:20px;
+    float:left;
+    width:250px;
+    text-align:justify;
+}
+.label1{
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:12px;
+    display:block;
+    margin-left:20px;
+    float:left;
+    width:250px;
+    text-align:justify;
+}
+#container{
+    padding: 0px;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    min-height:400px;
+    font-family: verdana, arial;
+    font-style: normal;
+    /*border:0px solid #f0f0f0;*/
+}
+#footer {
+    margin: 0 auto;
+    padding: 0px;
+    width: auto;
+    float: left;
+    height: 50px;
+    min-height: 50px;
+    font-family: verdana, arial;
+    font-style: normal;
+    background-color: #f0f0f0;
+    border: 0.5px solid #f0f0f0;
+    background-image: url(../images/footer.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+}
+h4 {
+    font-family: 'Lucida Sans', Arial, Helvetica;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333;
+}
+
+h3 {
+    font-family: 'Lucida Sans', Arial, Helvetica;
+    font-size: 21px;
+    line-height: 21px;
+    color: #666;
+}
+
+/*---------------------------formulario de senha-------------------------------*/
+fieldset {
+    border: 0px solid #ccc;
+    padding: 10px;
+}
+.textfield{
+    width:200px;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:14px;
+    height:18px;
+    border: 1px solid #CCF;
+}
+
+legend {
+    font-weight: bold;
+    border: 0px solid #ccc;
+    padding: 1px 4px;
+}
+#alert_user{
+    border: 1px double  #999;
+    background: #cd0a0a url(../images/ui-bg_flat_15_cd0a0a_40x100.png) 40% 40% repeat-x;
+    width:140px;
+    font-size:12px;
+    height:20px;
+    color: #FFF;
+    text-align:left;
+    display:none;
+}
+#div_imagens{
+    padding-left:3px;
+    height:130px;
+    width:130px;
+    display:inline;
+    margin-right: 2px;
+    margin-left:2px;
+    border: #CCC;
+}
+.chekbox{
+    width: auto;
+    margin-left: 8px;
+    margin-right: 8px;
+
+
+}
+#btn_upload{
+    height:25px;
+    width:130px;
+    float:left;
+    text-align:center;
+    vertical-align:middle;
+    font-family:'Arial Black', Gadget, sans-serif;
+    font-size:11px;
+    color:#666;
+    border:1px outset #CCC ;
+}
+
+.btn_upload{
+    height:25px;
+    width:130px;
+    float:left;
+    text-align:center;
+    vertical-align:middle;
+    font-family:'Arial Black', Gadget, sans-serif;
+    font-size:11px;
+    color:#666;
+    border:1px outset #CCC ;
+
+}
+#error{
+    color: red;
+    z-index: 2;
+}
+/* ***************** CSS para efeitos jQuery (Caixa de senha <azul>)******************* */
+
+.mudar {
+    background: #d6e2e5;
+    padding: 10px 0;
+    margin-top: 5px;
+    width: auto;
+    height: auto;
+    overflow: auto;
+}
+
+#btn_senha{
+    margin-left:500px;
+    border : 1px solid #808080;
+}
+
+/******************* Fim CSS para efeitos jQuery******************* */
+
+/***************** CSS para efeitos jQuery (EFEITOS DAS IMAGENS)******************/
+#mascara {
+    position:absolute;
+    background:#000;
+    z-index:1;
+    top:0;
+}
+
+.foto-ampliada {
+    width: auto;
+    height: auto;
+    position:absolute;
+    z-index:4;
+    cursor:pointer;
+    border:2px solid #000;
+
+}
+/********************* Fim CSS para efeitos jQuery**************************** */
+/***************** CSS para efeitos jQuery (EFEITOS DOS TEXAREA DE OBSERVACAO E DIAGNOSTICO)******************/
+#diagnostico{
+    display: none;
+}
+#obs{
+    display: none;
+}
+
+/********************* Fim CSS para efeitos jQuery **************************** */
+/***************** CSS para efeitos jQuery (EFEITO DE EXCLUSAO DAS IMAGENS)******************/
+#gallery { float: left; width: 65%; min-height: 12em; } * html #gallery { height: 12em; } /* IE6 */
+.gallery.custom-state-active { background: #eee; }
+.gallery li { float: left; width: 96px; padding: 0.4em; margin: 0 0.4em 0.4em 0; text-align: center; }
+.gallery li h5 { margin: 0 0 0.4em; cursor: move; }
+.gallery li a { float: right; }
+.gallery li a.ui-icon-zoomin { float: left; }
+.gallery li img { width: 100%; cursor: move; }
+
+#trash { float: right; width: 32%; min-height: 18em; padding: 1%;} * html #trash { height: 18em; } /* IE6 */
+#trash h4 { line-height: 16px; margin: 0 0 0.4em; }
+#trash h4 .ui-icon { float: left; }
+#trash .gallery h5 { display: none; }
+
+
+/*************************************** CSS para efeitos do menu left (painel administrativo) *********/
+
+#menu_left {
+    width:200px;
+    height:300px;
+    overflow:auto;
+    margin:30px 0;
+    background:#999;
+}
+#menu_left h3 {
+    font-size:12px;
+    cursor:pointer;
+    line-height:18px;
+    padding-left:20px;
+    margin:1px 0;
+    background: #cad2dd url(../images/mais.gif) 3px center no-repeat;
+    border-left: 5px solid #7d97ad;
+}
+#menu_left  h3.corrente {
+    background:#cad2dd url(../images/menos.gif) 3px center no-repeat;
+}
+#menu_left ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+#menu_left li a {
+    background: #d4dde4 url(../images/seta.gif) no-repeat 98%;
+    border-left: 5px solid #7d97ad;
+    color: #333;
+    text-decoration: none;
+    margin-bottom:1px;
+    padding: 3px 15px 3px 3px;
+    display: block;
+}
+#menu_left li a:hover {
+    background: #dce3e9 url(../images/seta.gif) no-repeat 98%;
+    color: #999;
+    border-left: 5px solid #cad2dd;
+}
+* html #menu_left h3, * html #menu_left h3.corrente {
+    background-position: 8px center;
+}
+*:first-child+html #menu_left h3,
+*:first-child+html #menu_left  h3.corrente {
+    background-position: 8px center;
+}
+
+#graficos{
+    float:right;
+    width: auto;
+    height: auto;
+}
+/**************************************************************************************/

@@ -1,0 +1,100 @@
+body{
+    margin:0px;
+    padding:0px;
+    font:12px "trebuchet MS", Verdana;
+    color:#fffbbb;
+    background-color:#d7e7e8;
+}
+
+#btn_entrar{
+
+    border:1px solid  #c0c0c0;
+    font:"Arial Narrow",Verdana;
+    font-size:12px;
+    background-image:url(../images/btn_login2.png);
+    background-position:center;
+}
+
+#wrap{
+
+    width:780px;
+    margin:0 auto;
+    height:auto;
+    border:0px solid #333;
+    background-image:url(../images/medicina6.png); 
+    background-repeat:no-repeat;
+    text-align:center;
+}
+
+#div_form_Login TD INPUT{
+
+    text-align:left;
+    font:10px  Verdana;
+    color:#000;
+    vertical-align:middle;
+    padding:6px;
+    margin:0px;
+    width:120px;
+}
+
+#div_form_Login TD {
+
+    text-align:left;
+    width:80px;
+    font:14px  "Times New Roman", Times, serif;
+    color:#000;
+    vertical-align:middle;
+    padding:0px;
+    margin:0px;
+}
+
+#titulo {
+
+    font:15px "Times New Roman", Times, serif;
+    color:#033;
+    padding:4px;
+    margin:2px;
+    padding-left:50px;
+    border:0px solid #333;
+    width:200px;
+}
+
+#div_form_Login UL{
+
+    margin:0 auto;
+    margin-top:180px;
+    width:350px;
+    height:190px;
+    padding-top:60px;
+}
+
+#alert_user{
+
+    border: 1px double  #999;
+    border-bottom:2px double  #999;
+    border-right:2px double  #999;
+    background: #cd0a0a url(../images/ui-bg_flat_15_cd0a0a_40x100.png) 40% 40% repeat-x;
+    width:135px;
+    font-size:11px;
+    height:20px;
+    color: #FFF;
+    text-align:left;
+    display:none;
+}
+
+#alert_user_pas{
+    
+    border: 1px double  #999;
+    border-bottom:2px double  #999;
+    border-right:2px double  #999;
+    background: #cd0a0a url(../images/ui-bg_flat_15_cd0a0a_40x100.png) 40% 40% repeat-x;
+    width:135px;
+    height:20px;
+    font-size:11px;
+    color: #FFF;
+    text-align:left;
+    display:none;
+}
+
+
+
